@@ -18,14 +18,14 @@ def copy_allfiles(src, dest):
             shutil.copy(full_file_name, dest)
 
 # Python基础路径设置及待复制：
-python_path = r"/Users/tangqiang/PycharmProjects/pythonProject/deepL_pro/"
+python_path = r"C:\Users\lenovo\English-book-translation"
 css_file = r"style.css"
 
 book_no = "j09"
 book_name = "on_grand_strategy"
 
-# 第一步：读取英文和中文文档，设置输出双语文件名
-path = '/Users/tangqiang/books/{}_{}/'.format(book_no,book_name)
+# 第一步：读取英文和中文文档，设置输出双语文件
+path = "/Users/lenovo/English-book-translation/{}_{}/".format(book_no,book_name)
 file_en = '{}_en.html'.format(book_name)
 file_zh = '{}_zh.html'.format(book_name)
 file_bi = '{}_bi_en_zh.html'.format(book_name)
